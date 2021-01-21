@@ -1,0 +1,57 @@
+Please print this form ('COPY REG_ENG.TXT PRN') and send it together with
+the registration fee to: XSS; Gr. Diesdorfer Str. 26; 39108 Magdeburg; Germany
+If you pay with credit card just Fax the printed form to: +49-391-7442602
+------------------------------------cut here----------------------------------
+                     Registration Form for MOD4WIN 2.30
+
+First Name: _________________ Last Name: _________________ Phone:____________
+
+Mailing Address: _________________________________________ Fax. :____________
+
+                 _________________________________________
+
+>Payment:
+ New user registration for MOD4WIN 2.30          45,- DM     ___________,- DM
+ plus for Check or direct Deposit                15,- DM     ___________,- DM
+ Update from MOD4WIN before 2.20                 15,- DM     ___________,- DM
+ Update from MOD4WIN 2.2x                         0,- DM
+ I don't have MOD4WIN Send me a 3.5" Disk         5,- DM     ___________,- DM
+
+=Total price:                                                ___________,- DM
+
+Method of payment:
+( )Credit Card (EURO Card; VISA; MasterCard; American Express; Diners Club)
+   card number: ____-____-____-____ expiration date: __/__
+
+   Your signature:
+
+( )Direct deposit to Deutsche Bank Ilmenau Bank Code 82070000 Account 4465134
+( )Check
+( )Cash
+( )Payment order
+
+The following information about your hardware is optional, however if you
+choose to provide it, you will help us serve our customers and their
+needs better in the future:
+
+eMail:___________________________
+
+How did you learn about MOD4WIN?_____________________________________________
+_____________________________________________________________________________
+
+Comments, Suggestions for MOD4WIN:___________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+Do you want to get informed about further major developments?    ( )YES/( )NO
+
+Your Hardware:
+
+Processor:( )386 ( )486 ( )Pentium ( )Other:________ Processor Speed:_____MHz
+
+Main Memory: ____________________ MB / Hard Drive(s): ____________________ MB
+
+Graphics Board: ____________________ BUS: ( )MCA ( )ISA ( )EISA ( )VLB ( )PCI
+
+Sound Card(s):______________________ CD-ROM(s):______________________________
