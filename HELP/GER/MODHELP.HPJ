@@ -1,0 +1,40 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+[OPTIONS]
+LCID=0x407 0x0 0x0 ; Deutsch (Standard)
+REPORT=Yes
+FTS=7
+CONTENTS=main_index
+TITLE=MOD4WIN 2.30  Hilfesystem
+COPYRIGHT=(c)1993-95 Kay Bruns & Uwe Zaenker
+CITATION=(c)1993-95 Kay Bruns & Uwe Zaenker
+BMROOT=..\common
+HLP=MODHELP.hlp
+
+[FILES]
+modhelp.rtf
+
+[MAP]
+HauptDlg         0
+SetupDlg         1
+InfoDlg          2
+OpenDlg          3
+SharewareNotes   4
+RegisterInfo     5
+InstrWindow      6
+EffWnd           7
+KeySelDlg        8
+ArcOptDlg        9
+FSelDlg         10
+ArcParm         11
+FMDlg           12
+QuickSelBox	13
+MiniState       15
+RecordingDlg	16
+RegisterDlg	17
+
+[WINDOWS]
+main="",,0,(r16777215),(r12632256)
+
+[CONFIG]
+Browsebuttons()
