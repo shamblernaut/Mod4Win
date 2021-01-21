@@ -1,0 +1,88 @@
+    ‹   ‹         ‹‹   ‹‹‹‹‹‹‹      ‹€€‹  ‹‹   ‹‹    ‹‹     ‹‹    ‹‹‹    ‹‹
+  ‹€€€ €€€‹      €€€€ ﬂﬂ€€€€ﬂﬂ€€‹  €€€€ﬂ ﬁ€€› €€€€  €€€€›  ﬁ€€› ‹€€€€€‹ €€€€
+ ﬁ€€€€€€€€€›    €€›ﬁ€€   ﬂ€€€  ﬂ€€‹ €€€€‹€€€ €€€ﬂ ‹‹ ﬂ€€€  €€€ ﬁ€€€ﬂ€€€  €€€›
+ €€ﬂ €€€ ﬂ€€  ‹€€ﬂ  ﬂ€€‹  ﬂ€€€  ﬁ€€› ﬂ€€€€€ ﬁ€€€€‹€€‹€€€€›ﬁ€€› €€€› ﬁ€€› ﬁ€€€
+ﬁ€€€‹ ﬂ ‹€€€›€€€€‹  ‹€€€€ ﬁ€€› ‹€€€›‹€€€ﬂ    €€€€€€€€€€€€ €€€€‹ﬁ€€€  €€€‹€€€›
+ €€€€› ﬁ€€€€  ﬂ€€€€€€€€ﬂ‹€€€€€€€€€ﬂﬁ€€€›      ﬂ€€€ﬂﬂ€€€ﬂ ﬁ€€€€€ €€€€ ﬂ€€€€€ﬂ
+  ﬂﬂﬂ   ﬂﬂﬂ       ﬂﬂ     ﬂﬂﬂﬂﬂﬂﬂﬂ   ﬂﬂﬂ         ﬂﬂ  ﬂﬂ    ﬂﬂﬂﬂ   ﬂﬂ    ﬂﬂﬂ
+€   €ﬂﬂﬂ        € ‹ﬂﬂ‹ €  € €ﬂﬂﬂ €  € €ﬂﬂ‹     €ﬂﬂ‹ €ﬂﬂﬂ     €   € ‹ﬂﬂ‹ €ﬂﬂ‹
+€   €‹‹         € €  € €  € €‹‹  €  € €‹‹ﬂ     €  € €‹‹      €ﬂ‹ﬂ€ €  € €  €
+€‹‹ €‹‹‹     ﬂ‹‹ﬂ ﬂ‹‹ﬂ ﬂ‹‹ﬂ €‹‹‹ ﬂ‹‹ﬂ € ﬂ‹     €‹‹ﬂ €‹‹‹     €   € ﬂ‹‹ﬂ €‹‹ﬂ
+                                                                POUR WINDOWS
+*************************
+* MOD4WIN  Version 2.40 *
+*************************
+_______________________________________________________________________________
+
+Instructions d'Installation:
+----------------------------
+
+- demarrez Windows
+
+- inserez la disquette dans le lecteur A ou B
+
+- dans le Gestionnaire de Programmes choisissez Fichier | Executer...
+
+- sur la Ligne de Commande tapez <drive>:install.exe, ex. "A:install.exe"
+
+- suivez les instructions du programme d'installation
+_______________________________________________________________________________
+
+								Bon de Commande
+								---------------
+
+
+		 				Date: ..............
+
+
+A:	Patrick Jeantaud
+	14 rue du Vercors
+	Lotissement Le Clair Village
+
+	26600 GRANGES LES BEAUMONT
+
+	France
+
+
+Veuillez m'expedier:
+
+- La version complete de "MOD4WIN" au prix de 169 Frs.
+
+
+A l'adresse suivante:
+---------------------
+
+Nom		: ..........................................................
+
+Adresse		: ..........................................................
+
+		: ..........................................................
+
+Code postal	: ......
+
+Ville		: ..........................................................
+
+
+
+
+Mode de Paiement:
+-----------------
+	( )	par Cheque de 194 Frs (dont 25 Frs de frais d'expedition) libelle
+		a l'ordre de Patrick JEANTAUD.
+
+
+	( )	contre remboursement de la somme de 209 Frs (dont 40 Frs de frais)
+
+
+(veuillez cocher le mode de paiement de votre choix.)
+
+_______________________________________________________________________________
+
+Amusez vous bien avec Mod4Win!
+
+       \|/
+      (. .)
+      ( | )
+      ( v )
+     __| |__
+    /       \

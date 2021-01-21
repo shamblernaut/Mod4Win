@@ -1,0 +1,264 @@
+This is a beta version!
+
+M4W_MCI Is a standard Windows MCI driver 
+that uses MOD4WIN's playback routines.
+
+INST_MCI.EXE toggles the installation
+of the driver. 
+
+After deinstallation There will be no 
+files, INI-Sections or Registry entries 
+left in your system ;-)
+
+HowTo use M4W_MCI in your App?
+------------------------------
+
+pseudo code:
+
+mci "open c:\mods\123.xm type m4w_mci alias aNameYouWant"
+mci "set aNameYouWant time format ms"
+mci "play aNameYouWant"
+mci "close aNameYouWant"
+
+
+REVISIONS
+------------------------
+1999/5/3
+----------
+* Made full version free avaiable
+
+1999/2/23
+----------
+* Fixed Arpeggio
+
+1998/11/30
+----------
+* Added intelligent surround...MOD4WIN now autodetects if a Channel needs 
+  to play in surround or normal mode [if you turn on Surround]
+* Lowered Cubic Spline PreAmp by 2dB to avoid overamping.
+  (Cubic splines can reach 125% ~ +2dB of the original sample value)
+* Fixed FT2 Note with volume=0 and FineVolUp BUG
+* Fixed Rertigger&VolumeSlide without volume slide
+* Added CPU and FPU Cubic Spline Interpolation
+* Fixed Fast Forward and Rewind
+* Fixed FT2 FadeOut
+* Fixed LCD Font characters "8" and "9"
+* Fixed PatternLoop hang up
+* Fixed Fine and XtraFine portamento down...it did portamento up
+* Speeded up loaders
+* Fixed FT2 SetEnvelopePos BUG
+* Fixed Retrigger+Volumeslide Bug
+* Fixed Tone Portamento without Tone bug
+* Added ST3 Period limit for portamento up's
+* Fixed FT2 Mixed tone effects (e.g. Portamento & Vibrato on Volume Column)
+* Fixed FT2 Envelope Sustain handling
+* Fixed FT2 tone portamento with current Volume=0 and new Instrument Bug
+* Fixed FT2 SetEnvelopePos BUG
+
+1998/08/20
+----------
+* Fixed stupid FT2 Envelopes
+* Fixed long time for exiting MOD4WIN with UseHardware=0
+* Fixed Windows NT caption display bug
+* Added Auto-"UseHardware=0" setting when no supported hardware is detected 
+  or Windows crashes while detecting custom Hardware
+* Fixed FT2 TonePortamento with new Instrument BUG
+* Increased number of FT2 Samples from 256 to all possible 1024
+* Fixed FT2 NoteOn volume handling
+
+1998/07/23
+----------
+* Fixed FineVolUp/FineVolDown/FinePortaUp/FinePortaDown 
+  (They were executed on first instead of second tick)
+* Fixed FT2 linear arpeggio (it was in AMIGA periods)
+* Swapped OKTALYZER Portamento Up and Down effects
+* Fixed Pattern Loop Lockup (Thanks to IT-Alien)
+* ReEnabled the good old TASK timer mode for better "slow machine timing"
+* Fixed ExactPeakSearch with one channel MODules
+* Fixed background timer bug ...sometimes the time update stopped
+* Added GUSPnP Plug and Play detection (no need to set ULRTASND anymore!)
+* Fixed PlayOffset 2x BUG
+* Added "PeakHold" Option for WIN.INI section
+* Tried to make Multitasking better on slow machines
+
+1998/05/28
+----------
+* Fixed FT2 SetSampleOffset (...a "playing" note is required)
+* FIX: OKTALYZER Arpeggio's were not played at all
+* Fixed FT2 SetFineTune
+* Fixed FT2 NoteOn without an Instrument
+* Centralized PeakSearch cache handling (SYSDIR\MOD4WIN.PKS)
+* Fixed MCI playback start from within Console Appz
+* Fixed FT2 Retrigger Note (now with Envelope Reset)
+* Fixed FT2 NoteDelay
+* Fixed Bug in "ExactPeakSearch" 
+* Fixed XM SetEnvelope Pos BUG (Now we only set the Volume Envelope Position)
+* Fixed Interwave NoteOff (Panning->0)
+* Fixed Loop->STOP Handling with PatternLoop (I hope)      
+* Fixed Empty Pattern loading with XM
+* Added "ExactPeakSearch" Option to Win.INI
+* Fixed "UseHarware=0" BUG. We always tried to detect an EWS64.
+* Fixed again EWS64 high pitched notes
+* Fixed XM SetEnvelope Pos BUG
+* Fixed SetSampleOffset BUG with notes that played off
+* Fixed BUG in FAR loader
+* Changed S3M PatternLoop like "IT" does it
+
+1998/01/22
+----------
+* Limited EWS64 max Pitch to 16.0
+* Fixed GPF with too many Patterns and Tracks per MODule
+* Added NoteOff and GlobalVol=DefGlobalVol at Repeat1
+* Removed Note limit completely
+* Speeded up GF1 Memory tansfers in Win3.1x/95
+* Fixed Pattern Loop while Pattern Delay BUG
+* Fixed SetSampleOffset with XM
+* Fixed Set Volume with Note Delay
+
+1997/11/24
+----------
+* Fixed Note Delay *.MOD compatibility BUG (All PC Players and
+  Trackers I have except IPlay are playing this wrong!)
+* Fixed XM Envelope Reset handling
+* Fixed Extreme Pattern looping bug
+* Fixed EWS64/GUS KeyOff BUG
+* Fixed EWS64 8Bit memory management
+
+1997/11/12
+----------
+* Fixed DPMI memory management in Win95
+* Timing changed again :((
+* EWSSurround on startup did not work
+
+1997/11/05
+----------
+* Fixed Portamento down bug with *.MOD
+* Changed XM panning to as it ever was since v2.30
+
+1997/10/24
+----------
+* Fixed Problem with "start /m mplayer /play <module name>"
+* Implemented PeakSearch cache (Player32.PKS) :-)
+* Fixed Bug with EWS64 surround
+* Fixed FT2 Panning...again :(
+
+1997/10/20
+----------
+* Changed GUS Volume and Panning handling.
+* Fixed Panning Incompatibilty with XM
+* FIX: You do not hear the beginning of the MODule
+  at the end anymore
+* Spedded up SAM9407 (not-)detection
+* Completely changed timing in DAC mode.
+* Removed LoBuffer detection because it slowed down the
+  system too much without the expected effect.
+
+1997/10/10
+----------
+* FIX: MOD4WIN did not properly end itself without an EWS64
+
+1997/10/8
+---------
+* Fixed BUG with SampleOffset
+* Added LoBuffer detection. If the Wave buffer goes below
+  10% the Player32.DLL will take all time it can get to
+  fill the Buffer to more than 50% and then it will return 
+  to normal timing.
+* Forced ShowPeakSearch ON when PeakSearch is enabled
+* Changed timing so that M4W_MCI now perfectly cooperates
+  with Windows 95 and Windows NT tasking
+* Implemented EWS64 Windows drivers v2.0 compatibility
+* Fixed Retrigger+Volumeslide BUG
+
+1997/9/18
+---------
+* Enabled native playback for all SAM9407 cards (not only 
+  TerraTec's EWS64 XL)
+* Removed nasty BUG with SampleOffset without a sample
+* Temporarily fixed FT2 Volume Column FX Bug with note delay
+* Fixed pattern loop handling
+
+1997/8/6
+---------
+* Fixed Memory Management to allow MODules >16MB
+  I HOPE THIS WORKS!
+
+1997/7/17
+---------
+* Fixed XM tuning...I hope
+
+1997/6/26
+---------
+* Fixed Borland's Pentium II Bug
+* Fixed Problem with Retrig Note (Thanks to Brian Kemp)
+* FIX: All Slide FX slided too fast in Betas 13 to 16
+       (Thanks to Valentine Michael Smith)
+
+1997/4/25
+---------
+* Fixed Problem with GUS Detection
+* Fixed Pattern loop Bug (thanks to MAZ ;)
+
+1997/4/21
+---------
+* fixed Tremolo Bug (thanks to E-Keet) 
+* Killed SetSampleOffset Clicks 
+
+1997/4/16
+---------
+* Fixed nasty GPFs when starting playback
+
+1997/4/7
+---------
+* Final TerraTec EWS64 Playback routines
+* TrlPlay.VxD|386|SYS handling changed
+* S3M 16Bit Sampling changed to load IT's S3Ms
+* Changed Memory handling for Win95/NT
+
+1997/2/25
+---------
+* Fixed Stop time when MODule ahs finished playing
+* Changed global FX handling (I hope this works!)
+* Envelope problem with FT2 corrected
+* On deinstallation automatically associate 
+  MODule extensions to MOD4WIN
+
+1997/2/17
+---------
+* Fixed BUGs in the drivers exit code that
+  left TSKxxx.TMP running.
+* Removed VxD-Timer in Windows 95 and 3.1x to
+  avoid system crashes
+
+1997/2/1
+---------
+* Implemented playing "FROM->TO"
+* Fixed memory management problem
+
+1997/1/31
+---------
+* MCI driver notification did not work properly
+* MCI driver notification did not work properly
+* MCI seek did not work
+* Added MODule associations on Installation
+* Fixed command line startup for MPLAYER.EXE
+* Fixed multiple open problem
+* Fixed object embedding problems with Wordpad 
+  and Winword
+
+1997/1/25
+---------
+* removed GPF (Thanks to Mike Silverstein)
+
+1997/1/24
+---------
+* Back ground noise in playback removed
+
+1997/1/22
+---------
+* Included Player32.DLL in the driver
+
+1997/1/10
+---------
+* Made nag dialog a bit less annoying
+* fixed GPF problems while fast forward/rewind

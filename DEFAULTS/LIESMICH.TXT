@@ -1,0 +1,98 @@
+    ‹   ‹         ‹‹   ‹‹‹‹‹‹‹      ‹€€‹  ‹‹   ‹‹    ‹‹     ‹‹    ‹‹‹    ‹‹
+  ‹€€€ €€€‹      €€€€ ﬂﬂ€€€€ﬂﬂ€€‹  €€€€ﬂ ﬁ€€› €€€€  €€€€›  ﬁ€€› ‹€€€€€‹ €€€€
+ ﬁ€€€€€€€€€›    €€›ﬁ€€   ﬂ€€€  ﬂ€€‹ €€€€‹€€€ €€€ﬂ ‹‹ ﬂ€€€  €€€ ﬁ€€€ﬂ€€€  €€€›
+ €€ﬂ €€€ ﬂ€€  ‹€€ﬂ  ﬂ€€‹  ﬂ€€€  ﬁ€€› ﬂ€€€€€ ﬁ€€€€‹€€‹€€€€›ﬁ€€› €€€› ﬁ€€› ﬁ€€€
+ﬁ€€€‹ ﬂ ‹€€€›€€€€‹  ‹€€€€ ﬁ€€› ‹€€€›‹€€€ﬂ    €€€€€€€€€€€€ €€€€‹ﬁ€€€  €€€‹€€€›
+ €€€€› ﬁ€€€€  ﬂ€€€€€€€€ﬂ‹€€€€€€€€€ﬂﬁ€€€›      ﬂ€€€ﬂﬂ€€€ﬂ ﬁ€€€€€ €€€€ ﬂ€€€€€ﬂ
+  ﬂﬂﬂ   ﬂﬂﬂ       ﬂﬂ     ﬂﬂﬂﬂﬂﬂﬂﬂ   ﬂﬂﬂ         ﬂﬂ  ﬂﬂ    ﬂﬂﬂﬂ   ﬂﬂ    ﬂﬂﬂ
+  €ﬂﬂ‹ €ﬂﬂﬂ €ﬂﬂ‹       €   € ‹ﬂﬂ‹ €ﬂﬂ‹       €ﬂﬂ‹ €   ‹ﬂﬂ‹ €   € €ﬂﬂﬂ €ﬂﬂ‹
+  €  € €‹‹  €‹‹ﬂ       €ﬂ‹ﬂ€ €  € €  €       €‹‹ﬂ €   €‹‹€  ﬂ‹ﬂ  €‹‹  €‹‹ﬂ
+  €‹‹ﬂ €‹‹‹ € ﬂ‹       €   € ﬂ‹‹ﬂ €‹‹ﬂ       €    €‹‹ €  €   €   €‹‹‹ € ﬂ‹
+                                                                FöR WINDOWS
+
+                                                                  Version 2.30
+
+                                           (c)1993,95 by K.Bruns & U.Zaenker
+                                            englische Version (c)1994 by JSInc.
+
+
+Was zum Teufel ist denn nun schon wieder ein MOD-PLAYER ?
+
+MOD4WIN ist es ein Abspieler fÅr Musik-Dateien diverser MOD-Formate unter 
+MS Windows 3.1X/NT/95 und WIN-OS/2.
+
+Daher lÑuft dieses Programm auch mit jeder MPC-kompatiblen Soundkarte!
+
+ WiedergabequalitÑt:
+
+  - maximal 48kHz, 16 bit, Stereo Surround und IDO-Filter fÅr die beste
+    SoundqualitÑt, wo gibt! 
+  - minimal 11kHz, 8 bit , Mono
+
+ UnterstÅtzte MOD-Formate:
+
+  - Noisetracker (*.NST)
+  - Protracker, TakeTracker, FastTracker, Startrekker (*.MOD; 1..32 KanÑle)
+  - MOD's Grave (*.WOW)
+  - ScreamTracker 2.X und 3.0X  (*.STM und *.S3M)
+  - Farandole Composer (*.FAR)
+  - MultiTracker (*.MTM)
+  - Composer 669 und UNIS 669 (*.669)
+  - Oktalyzer (*.OKT; die Kanalbindung ist noch nicht korrekt implementiert!)
+ 
+ 
+
+                          Hinweise zur Installation:
+                          **************************
+
+-Windows starten (z.B. am DOS-PROMPT 'win' eingeben)
+
+-Diskette in Laufwerk A oder B einlegen
+
+-Mit 'DATEI'|'AUSFöHREN'|'A:INSTALL.EXE' oder 'B:INSTALL.EXE'im Programm-
+ Manager die Installation starten.
+
+-Der Rest lÑuft fast von selbst !
+
+                    Registrierung fÅr MOD4WIN 2.30
+                    ******************************
+
+Drucken Sie Bitte das Registrierformular aus dem Helpfile oder die REG_GER.TXT
+aus und fÅllen Sie es dann mit den geforderten Daten.
+
+TIP: Der billigste, sicherste und einfachste Weg, aus dem Ausland zu bezahlen
+     ist die Postanweisung, da diese wie Bargeld behandelt wird!
+
+                               Update-Service
+                               **************
+
+Es besteht  fÅr registrierte  Anwender die  Mîglichkeit,  stets  die  aktuelle
+ Version  von uns zu beziehen. DafÅr ist die Originaldiskette oder auch nur der
+ Aufkleber und der Betrag von 15,- DM einzusenden. Falls der Aufkleber nur noch
+ in Fetzen abgeht, reicht auch ein StÅckchen davon.
+
+Und wieder  der Hinweis:  Anschrift angeben!  Sonst sind Sie eventuell schon
+ schwarz geworden(im Grabe) und die neueste Version ist immer noch nicht da.
+
+
+
+                           Systemvoraussetzungen
+                           *********************
+
+-Soundkarte mit mindestens einem DAC, der 11KHz-Sampling verkraftet und
+ entsprechendem asynchronen Wave-Treiber (Speaker.drv lÑuft z.b. nicht)
+ - oder -
+ Soundkarte mit OPL4 und RAM
+ - oder -
+ Gravis Ultrasound
+
+-AT 386 SX als Minimum
+-AT-386-25 zum Laufen mit hîchster Samplerate(4 Kanal-Module).
+-AT-486-33 mit 8MB Ram zum Benutzen als Hintergrund-Jukebox mit
+ 44 kHz 16 Bit Stereo Sampling.
+
+- Windows 3.1X, NT, 95 
+- VGA-Karte
+
+
+  Na denn ...             Viel Spa· mit MOD4WIN !!!

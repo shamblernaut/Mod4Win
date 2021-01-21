@@ -1,0 +1,61 @@
+Bitte drucken Sie diese Datei aus ('COPY REG_GER.TXT PRN') und schicken Sie sie
+mit der Registriergebuehr an:     XSS; Gr. Diesdorfer Str 26; D-39108 Magdeburg
+Falls Sie mit Kreditkarte zahlen, Faxen sie diese Datei an:     +49-391-7442602
+----------------------------------Hier abtrennen-------------------------------
+                    Registrierungsformular für MOD4WIN 2.30
+
+
+Vorname:  _____________________ Name:______________________ Tel.:____________
+
+Anschrift:_________________________________________________ Fax.:____________
+
+          _________________________________________________
+
+>Bezahlung:
+ Neue Registrierung fuer MOD4WIN 2.30            45,- DM     ___________,- DM
+ Update von MOD4WIN vor 2.20                     15,- DM     ___________,- DM
+ Update von MOD4WIN 2.2X                          0,- DM
++Wenn Sie noch keine MOD4WIN 2.30 Sharewareversion haben:
+ Diskette, extra Porto und Versand                5,- DM     ___________,- DM
++Zusatzkosten:
+ Scheck/Ueberweisung ausserhalb Deutschlands     15,- DM     ___________,- DM
+ Nachnahme (NUR INNERHALB DEUTSCHLANDS!)         10,- DM     ___________,- DM
+
+=Gesamtpreis:                                                ___________,- DM
+
+Zahlungart:
+( )Kreditkarte (EURO Card; VISA; MasterCard; American Express; Diners Club)
+   Kartennummer: ____-____-____-____ Ablaufdatum: __/__
+
+   Unterschrift:
+
+( )Ueberweisung auf Deutsche Bank Ilmenau Blz. 82070000 Konto 4465134
+( )Scheck
+( )Bar
+( )Postanweisung
+( )Nachnahme
+
+Das folgende ist nur zu unserer Information
+und muss nicht unbedingt ausgefuellt werden!
+
+eMail:___________________________
+
+Wie haben Sie von MOD4WIN erfahren?__________________________________________
+_____________________________________________________________________________
+
+Kommentare/Vorschläge fuer MOD4WIN:__________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+Moechten Sie ueber Weiterentwicklungen von uns informiert werden? ()JA/()NEIN
+
+Ihre Hardware:
+
+Prozessor:( )386 ( )486 ( )Pentium ( )Anderer:_________Taktfrequenz:______MHz
+
+Speicher: RAM: ______ MB / Festplatte(n): ____________ MB
+
+Grafikkarte:________________________ Bus: ( )MCA ( )ISA ( )EISA ( )VLB ( )PCI
+
+Soundkarte(n):______________________ CD-ROM(s):______________________________

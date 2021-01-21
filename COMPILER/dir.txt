@@ -1,0 +1,15 @@
+The Borland pascal compiler has been removed from the repository as it is not freely distributable.
+
+This was the existing file listing:
+
+Jun 21  2006 BPC.CFG
+Jan 28  1997 BPC.EXE
+Jan 28  1997 BPC.ORG
+Jan 28  1997 COMPRESS.EXE
+Apr 14  1993 DPMI16BI.OVL
+Jan 28  1997 FORMAT.COM
+Apr 14  1993 RTM.EXE
+Feb  1  2008 RTM.upx
+Jan 28  1997 TPW.TPL
+Jan 28  1997 W8LOSS.EXE
+Jan 28  1997 XDEL.EXE

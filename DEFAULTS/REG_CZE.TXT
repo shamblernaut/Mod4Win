@@ -1,0 +1,58 @@
+Prosím vytisknìte tento formuláø ('COPY REG_CZE.TXT PRN') a pošlete ho spolu 
+s registraèním poplatkem na adresu: 
+XSS; Gr. Diesdorfer Str. 26; 39108 Magdeburg; Germany
+Jestlie budete platit kreditní kartou, pouze odfaxujte vytištìnı formuláø 
+na èíslo: +49 391 7442602
+----------------------------------zde oddìlit--------------------------------
+                    Registraèní formuláø pro MOD4WIN 2.30
+
+Køestní jmémo: _______________ Pøíjmení: _________________ Telefon: _________
+
+Poštovní adresa: _________________________________________ Fax: _____________
+
+                 _________________________________________
+
+>Platba:
+ Registrace programu MOD4WIN 2.30 novım uivatelem  45,- DM  ___________,- DM
+ Pøíplatek za šek nebo pøímou platbu                15,- DM  ___________,- DM
+ Aktualizace z verze døívìjší ne 2.20              15,- DM  ___________,- DM
+ Aktualizace z verze 2.2x                            0,- DM
+ Nemám MOD4WIN, zašlete mi disketu 3.5"              5,- DM  ___________,- DM
+
+=Ceklová cena:                                               ___________,- DM
+
+Zpùsob platby:
+( )Kreditní karta: (EuroCard; VISA; MasterCard; AmericanExpress; DinersClub)
+   Èíslo karty: ____-____-____-____ Platnost do: __/__
+
+   Váš podpis:
+
+( )Pøímá platba na Deutsche Bank Ilmenau Bank Code 82070000 Account 4465134
+( )Šek
+( )Hotovì
+( )Platební pøíkaz
+
+Následující údaje jsou nepovinné, ale kdy nám je poskytnete, pomùete nám 
+lépe plnit poadavky našich zákazníkù v budoucnosti.
+
+e-mail: __________________________
+
+Jak jste se dozvìdìl(a) o programu MOD4WIN? _________________________________
+_____________________________________________________________________________
+
+Pøipomínky, návrhy k programu MOD4WIN: ______________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+Chcete bıt informován(a) o dalších velkıch zmìnách?            ( )ANO / ( )NE
+
+Váš hardware:
+
+Procesor:( )386 ( )486 ( )Pentium ( )jinı: ______ Rychlost procesoru: ___ MHz
+
+Hlavní pamì: ______________________ MB / Pevnı disk: ____________________ MB
+
+Grafická karta: ____________________ BUS: ( )MCA ( )ISA ( )EISA ( )VLB ( )PCI
+
+Zvuková karta: _____________________ CD-ROM: ________________________________

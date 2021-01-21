@@ -1,0 +1,393 @@
+MOD4WIN 2.40 last Beta
+
+What's New in the Beta?:
+------------------------
+2006/12/10
+----------
+* German Umlauts in Bitmap Fonts are replaced by latin equivalents
+* MOD4WIN does not complain anymore about not removed Font resource
+
+2006/12/04
+----------
+* Hotkeys "X" and "C" for Exit/Close did not save playing state
+
+2006/06/21
+----------
+* Fixed About->Normal view not updating Window
+* "Open"->Cancel always stopped "next" playback
+* Key "D" saves current song to disk
+* Removed Hardware support for EWS64, GUS and OPL4
+* MOD4WIN does not reposition itself anymore to fit into the Desktop, 
+  this is the only way to make it appear on a secondary Display in multi
+  monitor systems (Win16 does not know of multiple monitors)
+
+1999/5/3
+----------
+* Made full version free available
+
+1999/2/23
+----------
+* Added Czech language and font support
+* Added "LOG_ERRORS=0" to the [STATE] section of the MOD4WIN.INI to disable 
+  error logging if needed
+* Implemented Intelligent surround on GUS HW mixing too
+
+1998/12/11
+----------
+* Fixed GDI resource eater bug
+* Fixed MODEM Wave devices in SETUP dialog...again
+* Fixed 256 color palette bugs
+* Fixed display bug with ATI GFX cards
+* Fixed total time display with times > 99 min 59 sec
+* Fixed Arpeggio
+
+1998/11/30
+----------
+* Added support for local PeakFiles
+* Added Hotkeys "X" and "C" for Exit/Close
+* Added Hotkey "N" for miNistate
+* Changed double click behavior to toggle ministate
+* Added intelligent surround...MOD4WIN now autodetects if a Channel needs 
+  to play in surround or normal mode [if you turn on Surround]
+* MOD4WIN now keeps SHUFFLE order while deleting songs from list
+* Lowered Cubic Spline PreAmp by 2dB to avoid overamping.
+  (Cubic splines can reach 125% ~ +2dB of the original sample value)
+* Fixed FT2 Note with volume=0 and FineVolUp BUG
+* Fixed Rertigger&VolumeSlide without volume slide
+* Fixed IDO to OFF in hardware mixing modi
+* Fixed WindowsNT INTERRUPT timer mode
+* Added <CTRL>+<F5..8> Hotkeys for IDO switching
+* Added "N" and "C" Hotkeys for CPU and FPU cubic spline mixing
+* Forced FPU Cubic Splines for HDD recording
+* Added CPU and FPU Cubic Spline Interpolation
+* Fixed Fast Forward and Rewind
+* Fixed FT2 FadeOut
+* Fixed LCD Font characters "8" and "9"
+* Fixed PatternLoop hang up
+* Fixed Fine and XtraFine portamento down...it did portamento up
+* Speeded up loaders
+* Added HotKeys <CTRL>+<Left>/<Right> for skipping whole Patterns
+* Added HotKey <Pause> to toggle Playback of current Pattern only
+* Fixed FT2 SetEnvelopePos BUG
+* Fixed Retrigger+Volumeslide Bug
+* Fixed Tone Portamento without Tone bug
+* Added ST3 Period limit for portamento up's
+* Fixed FT2 Mixed tone effects (e.g. Portamento & Vibrato on Volume Column)
+* Fixed FT2 Envelope Sustain handling
+* Fixed FT2 tone portamento with current Volume=0 and new Instrument Bug
+
+1998/08/20
+----------
+* Fixed stupid FT2 Envelopes
+* Fixed long time for exiting MOD4WIN with UseHardware=0
+* Fixed Windows NT caption display bug
+* Added Auto-"UseHardware=0" setting when no supported hardware is detected 
+  or Windows crashes while detecting custom Hardware
+* Fixed FT2 TonePortamento with new Instrument BUG
+* Increased number of FT2 Samples from 256 to all possible 1024
+* Fixed FT2 NoteOn volume handling
+
+1998/07/23
+----------
+* Fixed FineVolUp/FineVolDown/FinePortaUp/FinePortaDown 
+  (They were executed on first instead of second tick)
+* Fixed FT2 linear arpeggio (it was in AMIGA periods)
+* Swapped OKTALYZER Portamento Up and Down effects
+* Fixed Pattern Loop Lockup (Thanks to IT-Alien)
+* Enabled Win98 gradient Caption painting
+* Made timer intervalls smaller in Interrupt mode
+* ReEnabled the good old TASK timer mode for a better "slow machine timing"
+* Fixed ExactPeakSearch with one channel MODules
+* Fixed background timer bug ...sometimes the time update stopped
+* Added GUSPnP Plug and Play detection (no need to set ULTRASND anymore!)
+* Fixed "Move" Option in system menu
+* Fixed PlayOffset 2x BUG
+* Added Extension Checkup and Icons (Thanx to Mikko Lyly)
+* Added "PeakHold" Option for WIN.INI section
+* Tried to make Multitasking better on slow machines
+
+1998/05/28
+----------
+* Fixed FT2 SetSampleOffset (...a "playing" note is required)
+* FIX: OKTALYZER Arpeggio's were not played at all
+* Fixed FT2 SetFineTune
+* Fixed FT2 NoteOn without an Instrument
+* Centralized PeakSearch cache handling (SYSDIR\MOD4WIN.PKS)
+* Fixed FT2 Retrigger Note (now with Envelope Reset)
+* Fixed FT2 NoteDelay
+* Fixed Bug in "ExactPeakSearch" 
+* Fixed XM SetEnvelope Pos BUG (Now we only set the Volume Envelope Position)
+* Fixed Interwave NoteOff (Panning->0)
+* Fixed Loop->STOP Handling with PatternLoop (I hope)      
+* Fixed Empty Pattern loading with XM
+* Added "ExactPeakSearch" Option to Win.INI
+* Fixed "UseHarware=0" BUG. We always tried to detect an EWS64.
+* Fixed again EWS64 high pitched notes
+* Fixed SetSampleOffset BUG with notes that played off
+* Fixed BUG in FAR loader
+* Added Error logging
+* Changed S3M PatternLoop like "IT" does it
+
+1998/01/22
+----------
+* Limited EWS64 max Pitch to 16.0 (thanks to Roel de Wit)
+* Fixed GPF with too many Patterns and Tracks per MODule
+* Added scanning of packed files when loading subdirs
+* Added NoteOff and GlobalVol=DefGlobalVol at Repeat1
+* Removed Note limit completely
+* Speeded up GF1 Memory tansfers in Win3.1x/95
+* Fixed Pattern Loop while Pattern Delay BUG
+* Fixed SetSampleOffset with XM
+* Fixed Set Volume with Note Delay
+
+1997/11/24
+----------
+* Fixed Note Delay *.MOD compatibility BUG (All PC Players and 
+  Trackers I have except IPlay are playing this wrong!)
+* Fixed "previous song" button handling
+* Removed Hourglass cursor on minimized and inactive App
+* Fixed XM Envelope Reset handling
+* Fixed Extreme Pattern looping bug
+* Fixed EWS64/GUS KeyOff BUG
+* Fixed EWS64 8Bit memory management
+
+1997/11/12
+----------
+* Fixed DPMI memory management in Win95
+* Timing changed again :((
+* EWSSurround on startup did not work
+
+1997/11/05
+----------
+* Fixed Portamento down bug with *.MOD
+* Fixed Display junk when MOD4WIN was started in MiniState
+* Changed XM panning to as it ever was since v2.30
+* Slowed down the wave buffer timing a bit
+
+1997/10/24
+----------
+* Fixed MOD4WIN's window management a bit
+* Implemented PeakSearch cache (Player32.PKS) :-)
+* Fixed Bug with EWS64 surround
+* Fixed DTD "is not supported" Error message in MOD4WIN's Setup
+* Changed DAC and DTD mode timing in Windows NT...again
+* Fixed FT2 Panning...again :(
+* Note: The Timer modi in MOD4WINs SETUP are fakes now!
+  You don't need to switch them.
+
+1997/10/20
+----------
+* Changed GUS Volume and Panning handling.
+* Fixed Panning Incompatibilty with XM
+* Implemented Timer WatchDog for Windows NT...Now
+  you'll not need to press pause/pause anymore ;-)
+* FIX: You do not hear the beginning of the MODule
+  at the end anymore without "Repeat 1"
+* Spedded up SAM9407 (not-)detection
+* Disabled DPMI memory in Windows NT since the OS
+  does not seem to free DMPI buffers (???)
+* Completely changed timing in DAC and HDD modi.
+* Removed LoBuffer detection because it slowed down the
+  system too much without the expected effect.
+* NOTE: Please do not set the Number of Buffers >80
+  in Windows NT with CREATIVE LABS wave drivers! 
+
+1997/10/10
+----------
+* FIX: MOD4WIN did not properly end itself without an EWS64
+
+1997/10/8
+---------
+* Fixed BUG with SampleOffset
+* Added LoBuffer detection. If the Wave buffer goes below
+  10% the Player32.DLL will take all time it can get to
+  fill the Buffer to more than 50% and then it will return 
+  to normal timing.
+* Added PeakSearch and LoadProgress Display in MOD4WIN's
+  main window
+* Forced ShowPeakSearch ON in DTD Recording mode
+* Changed timing so that MOD4WIN now perfectly cooperates
+  with Windows 95 and Windows NT tasking
+* Implemented EWS64 Windows drivers v2.0 compatibility
+* Fixed Retrigger+Volumeslide BUG
+
+1997/9/18
+---------
+* Enabled Windows NT playback for all SAM9407 compatible 
+  cards. To use it you have to set the envirorment variable
+  (Control Panel->System->Envirorment) "SAM9407=330" where 
+  330 is the base port in hex...and you have to boot DOS 
+  before Windows NT to upload the firmware!
+* fixed a bug in MOD4WIN's Button handling ...from stone age
+* Enabled native playback for all SAM9407 cards (not only 
+  TerraTec's EWS64 XL)
+* Removed nasty BUG with SampleOffset without a sample
+* Fixed spelling errors in italian resources
+* Temporarily fixed FT2 Volume Column FX Bug with note delay
+* Fixed pattern loop handling
+* Fixed Fadeout bug in HD Recorder
+
+1997/8/6
+--------
+* Removed Nag Screen. Five songs is limit enough ;)
+* Fixed Memory Management to allow MODules >16MB
+  I HOPE THIS WORKS!
+* Fixed Effect Panel move handling
+* Changed addresses in help files and registration forms
+
+1997/7/17
+---------
+* Added Fadeout in HDD mode
+* Fixed XM tuning...I hope
+
+1997/6/26
+---------
+* Fixed Borland's Pentium II Bug
+* Fixed Problem with Retrig Note (Thanks to Brian Kemp)
+* FIX: All Slide FX slided too fast in Betas 13 to 16 
+       (Thanks to Valentine Michael Smith)
+
+1997/4/25
+---------
+* Fixed Problem with GUS Detection
+* Fixed Pattern loop Bug (thanks to MAZ ;)
+* Fixed display Bug (thanks to Fredric Echols)
+
+1997/4/21
+---------
+* fixed Tremolo Bug (thanks to E-Keet)
+* Killed SetSampleOffset Clicks
+
+1997/4/7
+--------
+* Final TerraTec EWS64 Playback routines
+* TrlPlay.VxD|386|SYS handling changed
+* S3M 16Bit Sampling changed to load IT's S3Ms
+* ficed Command line bug while while MOD4WIN was minimized 
+* Changed Memory handling for Win95/NT
+
+1997/2/25
+---------
+* Changed global FX handling (I hope this works!)
+* Envelope problem with FT2 corrected
+* Corrected spelling error in german resources
+* Corrected About display on Drag&Drop
+
+1997/2/17
+---------
+* Added Italian resources
+* Fixed BUGs in the drivers exit code that
+  left TSKxxx.TMP running.
+* Fixed FX diplay bug in EWS64 and GUS mode 
+  when no PeakSearch was on
+* Removed VxD-Timer in Windows 95 and 3.1x to
+  avoid system crashes
+
+1997/2/4
+---------
+* Improved Windows NT Timing
+
+1997/2/1
+---------
+* Fixed memory management problem in Player32
+
+1997/1/31
+---------
+* Beta GUS support in Windows NT!
+  + Set the UltraSnd=2x0,xx,xx,xx,xx envirorment!
+  - The GUS mixer must be set up in DOS/Win95 before
+  - GUS Timing not very good yet
+* Probably more stable VxD-Timer in Windows 3.1/95
+  (On system hang up Problems just delete TrlPlay.*
+   and report this to me)
+
+1997/1/24
+---------
+* Background noise in Player32 removed (...again ;)
+
+1997/1/22
+---------
+* Made Player32 cooperate better with M4W_MCI.DRV
+* Corrected MOD4WINs outfit in Windows NT 4.0
+* Fixed Volume Envelope bug in XM playback
+
+1997/1/21
+---------
+* Background noise in Player32 removed
+
+1997/1/20
+---------
+* Instant PreAmp changing in Hardware mixing mode did not work
+
+1997/1/18
+---------
+* Added more stable versions of trlplay.vxd and trlplay.386
+
+1997/1/16
+---------
+* Player32.dll crashed if the selected wave driver was already open
+* Fast Forward and Rewind didn't work if the FX Panel was closed
+* GUSPnP public beta 3 drivers v2.0 do not work in software mixing 
+  mode. THIS IS NOT A MOD4WIN BUG! Start MPlayer with a big WAV file 
+  and make the sound drop (Start a time consuming 16Bit app)...the 
+  time wil count on but the sound will mute...
+
+1997/1/14
+---------
+* Player32.dll had loop problems on high pitches
+
+1997/1/10
+---------
+* The PreAmp-Slider did not work
+* Player32 Task mode fixed
+* Junk display problems fixed
+* Debug output problems fixed
+
+1997/1/9
+--------
+* No more Shareware count downs or expiration dates :)
+* GUS-PnP/Interwave playback routines
+* TerraTec EWS 64 playback routines
+* Several sequencing and note playback bugs fixed
+* Faster Software Mixing routines
+* Almost click free Software mixing
+* Windows 95 lookalike interface
+* In Win95/3.1 Task MODE now very reliable (VxD's)
+* Better Windows 95 multi tasking
+- OPL4 support temporarily disabled
+
+
+What's missing fo the next official release?
+--------------------------------------------
+
+* Long file name support and AMIGA naming convention
+* Playback support for CD Audio, WAVE and MIDI...maybe MP3
+* Unlimited play list size
+* AWE 32/64 drivers
+* Real multi threaded timing in Windows 95/NT
+* New easier interface
+* PlugIn API for new sound drivers, effects and file formats
+* Language construction kit (Build you own MOD4WIN ;)
+* Updated Help files
+...maybe more
+
+
+!! UNDOCUMENTED MOD4WIN !!
+--------------------------
+
+We had no time to write a new old setup.
+So here're some new options for you:
+
+Add this section to your WIN.INI
+
+Here's the default settings if no [Player32] Section is in your WIN.INI:
+[Player32]
+UseHardware=1     ;1=Autodetect GUS etc.; 0=No Detection==>No Hardware Mixing!
+PALTiming=0       ;NTSC/PAL-Timing (Switch, if some samlpes have pauses or do
+                  ;not play till their end during playback)
+PeakSearch=1      ;1=enable peak search before playback starts
+ShowPeakSearch=0  ;1=show peak search progress bar
+ExactPeakSearch=1 ;1=Do iterative peak Search...avoids OverAmping but is slower
+PeakHold=0        ;1=Do not Decrease CPU Load (useful for Speed Tests)
+LoadProgress=0    ;1=show progress indicator while samples are being loaded to
+                  ;GUS/OPL4/EWS64 RAM
