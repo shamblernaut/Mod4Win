@@ -1,0 +1,5 @@
+PROGRAM CIS_REG;
+USES MakeCode;
+BEGIN
+  MakeCISCode;
+END.

@@ -1,0 +1,67 @@
+[INSTALL]
+APPNAME=MOD4WIN 2.40 - Full Version
+GRPNAME=MOD4WIN
+DEF_DIR=C:\MOD4WIN
+
+[REQFILES]
+1=MOD4WIN.ex_,MOD4WIN.exe
+2=player32.dl_,player32.dll
+3=trlplay.386,trlplay.386
+4=trlplay.VXD,trlplay.VXD
+5=trlplay.SYS,trlplay.SYS
+6=res_usa.dl_,res_usa.dll
+7=res_ger.dl_,res_ger.dll
+
+[OPTFILES1]
+Name1=Sample Modules
+Name2=Beispiel Module
+Name3=Modules Dιmonstration
+Name4=Modulos de ejemplo
+Name5=Δείγματα Modules
+Name6=Moduli di esempio
+Name7=Voorbeeld Modules
+Name8=Ukαzkovι moduly
+1=*.ns_,*.nst
+2=*.mo_,*.mod
+3=*.wo_,*.wow
+4=*.ok_,*.okt
+5=*.st_,*.stm
+6=*.s3_,*.s3m
+7=*.66_,*.669
+8=*.fa_,*.far
+9=*.mt_,*.mtm
+10=*.ul_,*.ult
+11=*.dm_,*.dmf
+12=*.xm_,*.xm 
+13=*.ml_,*.mol
+path=MODULES
+size=
+
+[OPTFILES2]
+Name1=English Help
+Name2=Englische Hilfe
+Name3=Aide en Anglais
+Name4=Ayuda en Inglιs
+Name5=Αγγλική Βοήθεια
+Name6=Guida inglese
+Name7=Engelse Help
+Name8=Anglickα nαpovμda
+1=m4w_usa.hl_,m4w_usa.hlp
+2=readme.txt,readme.txt
+path=.
+size=
+
+[OPTFILES3]
+Name1=German Help
+Name2=Deutsche Hilfe
+Name3=Aide en Allemand
+Name4=Ayuda en Alemαn
+Name5=Γερμανική Βοήθεια
+Name6=Guida tedesca
+Name7=Duitse Help
+Name8=Nμmeckα nαpovμda
+1=m4w_ger.hl_,m4w_ger.hlp
+2=liesmich.txt,liesmich.txt
+path=.
+size=
+
