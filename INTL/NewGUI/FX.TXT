@@ -1,0 +1,68 @@
+Arpeggio
+Portamento Up
+Portamento Down
+Tone Portamento
+Vibrato
+Portamento + Volume Slide
+Vibrato + Volume Slide
+Tremolo
+Set Panning Position
+Set Sample Offset
+Volume Slide
+Pattern Jump
+Set Volume
+Pattern Break
+
+Set Speed
+Set Filter
+Fine Portamento Up
+Fine Portamento Down
+Glissando Control
+Vibrato Waveform
+Set Finetune
+Pattern Loop
+Tremolo Waveform
+Set Panning Position
+Retrigger Note
+Fine Volume Up
+Fine Volume Dwn
+Note Cut
+Note Delay
+Pattern Delay
+Invert Loop
+Arpeggio 1
+Arpeggio 2
+Tone Up
+Tone Dwn
+Tone Higher
+Tone Lower
+Set Old Volume
+FAR Special
+Fine Pitch Up
+Fine Pitch Down
+Note Portamento
+FAR Retrigger
+Vibrato Depth
+Vibrato Note
+Volume Up
+Volume Down
+Vibrato Sustain
+Volume Portamento
+Fine Tempo Down
+Fine Tempo Up
+Tremor
+Extra Fine Slide Up
+Extra Fine Slide Down
+Retrigger Note + Volume Slide
+Stereo Control
+Set Global Volume
+Set BPM Speed
+Fine Vibrato
+Frequency Adjust
+Fine Panning Left
+Fine Panning Right
+Slot Retrigger
+Global Volume Slide
+Set Envelope Position
+Panning Slide
+Note Off
