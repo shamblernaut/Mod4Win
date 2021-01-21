@@ -1,0 +1,54 @@
+[OPTIONS]
+CONTENTS=main_index
+TITLE=MOD4WIN 2.31  Help System
+COMPRESS=off
+WARNING=3
+CITATION= Copyright (c) 1993-96 JSInc.
+COPYRIGHT=Copyright (c) 1993-96 JSInc. (built 0.1)
+REPORT=on
+
+[FILES]
+modushlp.rtf 
+
+[CONFIG]
+Browsebuttons()
+
+[WINDOWS]
+main= , ,0,(255,255,255),(192,192,192),0
+
+[BITMAPS]
+..\common\main.shg
+..\common\ministat.shg
+fcopy.shg
+..\common\selbox.shg
+setup_us.shg
+arcsetup.shg
+arcparam.shg
+keysel.shg
+browser.shg
+open.shg
+info.shg
+instrum.shg
+..\common\effwnd.shg
+..\common\effects.shg
+regis_us.shg
+recor_us.shg
+
+[MAP]
+HauptDlg         0
+SetupDlg         1
+InfoDlg          2
+OpenDlg          3
+SharewareNotes   4
+RegisterInfo     5
+InstrWindow      6
+EffWnd           7
+KeySelDlg        8
+ArcOptDlg        9
+FSelDlg         10
+ArcParm         11
+FMDlg           12
+QuickSelBox	13
+MiniState       15
+RecordingDlg	16
+RegisterDlg	17

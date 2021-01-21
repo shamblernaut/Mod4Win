@@ -1,0 +1,13 @@
+Mod4Win is the player for digital music modules for Windows.
+*XM,S3M,MTM,MOD,NST,WOW,OKT,STM,669,FAR
+*Direct hardware mixing on GUS and OPL4 Cards
+*11-48 kHz,8/16 bit,Mono/Stereo/Surround
+*Interpolated Dynamic Oversampling (IDO)
+*ARJ,LHA,ZIP support
+*Up to 2999 MOD-Files in one Playlist
+*Drag & Drop
+*Hotkeys for all player functions (user-definable)
+*Mini Status (minimal desktop space)
+*Effect Panel shows current effects, instruments, notes, volumes, and speed
+*Integrated File Manager
+*Quick Selection Box
