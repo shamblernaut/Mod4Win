@@ -1,0 +1,66 @@
+******************************************************************************
+*                               IMPORTANT NOTICE			     *
+*									     *
+*  This form is only to be used by European customers.  Customers from the   *
+*  USA, Canada, or other countries outside Europe use the registration form  *
+*  contained in the English version of the Windows help file!		     *
+******************************************************************************
+
+Please print this form ('TYPE REG_ENG.TXT >PRN') and send it together with
+the registration fee of DM 45 (Updates DM 15) in cash or cheque (!in case
+of cheques add DM 15 bank fee to the regular amount!) to one of the
+following adresses:
+         Kay Bruns;   Max-Planck-Ring 6e/5; D-98693 Ilmenau; Germany
+or:      Uwe Zaenker; Am Grund 26;          D-04207 Leipzig; Germany
+------------------------------------cut here----------------------------------
+                     Registration Form for MOD4WIN 2.30
+
+First Name: _________________ Last Name: _________________ Phone:____________
+
+Mailing Address: _________________________________________ Fax. :____________
+
+                 _________________________________________
+
+>Payment:
+ New user registration for MOD4WIN 2.30          45,- DM     ___________,- DM
+ plus for Check or direct Deposit                15,- DM     ___________,- DM
+ Update from MOD4WIN before 2.20                 15,- DM     ___________,- DM
+ Update from MOD4WIN 2.2x                         0,- DM
+ I don't have MOD4WIN Send me a 3.5" Disk         5,- DM     ___________,- DM
+
+=Total price:                                                ___________,- DM
+
+Method of payment:
+( )Direct deposit to Deutsche Bank Ilmenau Bank Code 82070000 Account 4465134
+( )Check
+( )Cash
+( )Payment order
+   CreditCard: 
+   ( ) VISA    ( ) EUROCARD    ( ) MASTERCARD    ( ) AMEX    ( ) DINERS
+   Card No : ________________ Expt date: __/__ 
+
+The following information about your hardware is optional, however if you
+choose to provide it, you will help us serve our customers and their
+needs better in the future:
+
+Compuserve ID:___________________________InterNet:___________________________
+
+How did you learn about MOD4WIN?_____________________________________________
+_____________________________________________________________________________
+
+Comments, Suggestions for MOD4WIN:___________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+Do you want to get informed about further major developments?    ( )YES/( )NO
+
+Your Hardware:
+
+Processor:( )386 ( )486 ( )Pentium ( )Other:________ Processor Speed:_____MHz
+
+Main Memory: ____________________ MB / Hard Drive(s): ____________________ MB
+
+Graphics Board: ____________________ BUS: ( )MCA ( )ISA ( )EISA ( )VLB ( )PCI
+
+Sound Card(s):______________________ CD-ROM(s):______________________________
