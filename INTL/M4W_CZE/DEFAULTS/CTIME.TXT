@@ -1,0 +1,320 @@
+                           ***********************
+                           * MOD4WIN  verze 2.30 *
+                           ***********************
+_____________________________________________________________________________
+
+Návod k instalaci:
+------------------
+
+- spuste Windows (je vyadována verze 3.1 nebo vyšší)
+
+- vlote disketu do jednotky A nebo B
+
+- ve Správci programù zvolte Soubor | Spustit...
+
+- na pøíkazové øádce napište <jednotka>:install.exe, napø. "A:install.exe"
+
+- øiïte se instrukcemi instalaèního programu
+_____________________________________________________________________________
+
+Co je nového ve verzi 2.30
+--------------------------
+
+>> 2.20 ==> 2.25 <<
+
++ Pøímá Podpora Hardwaru pro karty s èipem GF1 (Gravis Ultrasound)
++ natahuje 16-bitové nástroje v reimu OPL4
+* MOD4WIN se nyní objevuje na Hlavním panelu ve Windows 95
++ nyní mùete zapnout/vypnout všechny kanály a hrát jednotlivé nástroje 
+  z Panelu efektù
++ MOD4WIN má svou vlastní rutinu GPF, která automaticky uvolní všechny 
+  knihovny, písma a doèasné soubory, které se pouívaly
+* opravy chyb
+  - Setup Dialog se hroutil, kdy nebyl nainstalován ádnı zvukovı ovladaè
+  - Shareware Dialog se hroutil pøi stisku Alt-F4
+  - èasovaè Windows a èasovaè pøerušení nìkdy hroutily systém
+  - stav se plnì neobnovoval pøi spuštìní ze seznamu skladeb
+  - z dialogu Otevøít bylo odstranìno nepøíjemné GPF
+
+>> 2.25 ==> 2.30 <<
+
++ podpora pro formát XM
++ monost pro zvuk Surround v reimu GF1 pro moduly s ménì ne 8 kanály
+* zobrazování Panelu efektù v reimu DAC je nyní ivìjší
+* opravy chyb
+  - nìkteré efekty nebyly pøehrávány správnì pro formát MOD
+  - opraveno GPF v oknì Rychlı vıbìr
+  - opravena váznoucí tlaèítka rychlého pøevíjení pøi rozbalování archívù
+_____________________________________________________________________________
+
+***********************************************************************
+* Následující kapitoly jsou všechny obsaeny v nápovìdì pro MOD4WIN a *
+* opravdu mnohem lépe vypadají tam. Samozøejmì jestli vánì milujete  *
+* textové soubory, mùete si je pøeèíst tady.                         *
+***********************************************************************
+_____________________________________________________________________________
+
+Vlastnosti
+----------
+
+MOD4WIN je pøehrávaè digitálních hudebních modulù pro poèítaèe kompatibilní 
+s IBM-PC a operaèní systém Microsoft Windows.
+
+- MOD4WIN 2.30 podporuje:
+  * moduly NoiseTracker (*.NST), Pro-, Fast-, a TakeTracker (*.MOD), Grave 
+    Composer (*.WOW), Oktalyzer (*.OKT), ScreamTracker 2.x (*.STM), 
+    ScreamTracker 3.x (*.S3M), Composer 669 a UNIS 669 (*.669), Farandole 
+    Composer (*.FAR), MultiTracker (*.MTM), a FastTracker II (*.XM)
+  * vzorkovací frekvenci mezi 11 a 48 kHz
+  * hloubku samplù 8 a 16 bitù
+  * zvuk Mono, Stereo a Stereo Surround
+  * Interpolované dynamické pøesamplování (IDO)
+  * Pøímou podporu hardwaru (Direct Hardware Support)
+  * Pøímé ukládání na disk (Direct To Disk Recording)
+
+- plná podpora archívù
+  * podporuje ARJ (*.ARJ), LHARC (*.LHA, *.LZH) a PKZIP (*.ZIP)
+
+- Jukebox a pro 2999 souborù MOD najednou
+  * vytváøí seznamy (*.MOL) souborù z a 200 adresáøù nebo archívù
+  * funkce Drag & Drop pro jeden nebo více modulù, archívù a seznamù
+  * spouštìní modulu, archívu nebo seznamu z pøíkazové øádky
+
+- intuitivní a snadno ovladatelné rozhraní s komplexní funkèností
+  * horké klávesy pro všechny funkce pøehrávaèe, mnoho z nich je moné si 
+    pøizpùsobit
+  * Mini stav zabírá minimum pracovní plochy a volitelnì zùstává stále 
+    navrchu
+  * Panel efektù ukazuje aktuální efekty, nástroje, noty, hlasitosti a 
+    rychlost
+  * vestavìnı manaer souborù umoòuje kopírovat, pøesouvat/pøejmenovávat a 
+    mazat moduly z a do jednotek, adresáøù, archívù a seznamù
+  * okno Rychlı vıbìr zobrazuje všechny moduly v aktuálním seznamu a 
+    umoòuje okamitì kterıkoliv vybrat
+  * dialog Registrace uivatele zjednodušuje registraèní proces
+
+- MOD4WIN ukládá všechna nastavení, jako tøeba
+  * umístìní oken
+  * naposledy otevøené adresáøe
+  * nastavení zvukové karty a zvukového ovladaèe
+  * volitelnì celkovı aktuální stav, take pøíštì se spustí pøesnì tam, kde 
+    byl naposledy ukonèen
+_____________________________________________________________________________
+
+Poadavky na systém
+-------------------
+
+Zvuk:
+- Zvuková karta s alespoò jedním digitálnì analogovım pøevodníkem (DAC), 
+  kterı zpracovává zvuk na frekvenci 11 kHz nebo vyšší a odpovídající 
+  asynchronní zvukovı ovladaè, té známı jako vlnové zaøízení kompatibilní 
+  s MPC-2
+  - nebo -
+- Hardwarovì pøímo podporovaná zvuková karta (karta zaloená na èipu OPL4 
+  s vlastní pamìtí RAM nebo Gravis Ultrasound)
+- Poznámka: Emulátory pøevodníku jako speaker.drv nemohou bıt podporovány.
+  Reim pøímého ukládání na disk nemá ádné zvláštní nároky na zvukovı 
+  hardware.
+
+Procesor:
+- AT 386 SX/16 jako absolutní minimum pro spuštìní programu.
+- AT 386 DX/20 pro pøehrávání na nejvyšší vzorkovací frekvenci.
+- AT 486 DX/33 s 8 MB RAM pro pouití na pozadí jako jukebox pøi 44 kHz 
+  a 16-bitovém stereofonním vzorkování.
+- Poznámka: Pro pøehrávání modulù s více ne 8 kanály a zapnuté funkci IDO a 
+  paningu mùe bıt potøeba rychlejší procesor.
+  V reimech pøímého ukládání na disk a pøímé podpory hardwaru postaèí ke 
+  spuštìní libovolnı procesor AT 386.
+
+Grafika:
+- Grafická karta VGA s nejménì 16 barvami najednou.
+- Doporuèené rozlišení obrazovky pro zobrazení Hlavního dialogu, Info 
+  dialogu a Panelu efektù bez pøekrıvání je 800 x 600.
+- Poznámka: S kartou Hercules nebo monochromatickou kartou bude mnoho 
+  dialogù neèitelnıch.
+
+Operaèní systém:
+- Microsoft Windows 3.1 nebo vyšší v rozšíøeném reimu 386.
+- Poznámka: Tuto verzi programu u nelze spustit na poèítaèích 286, ani 
+  pod Windows ve standardním reimu. V tomto okamiku není ádná zvláštní 
+  podpora pro Windows 95.
+
+Poadavky na systém jsou podrobnìji popsány v kapitole Známé problémy a 
+Èasto kladené otázky (FAQ) v souboru nápovìdy pro Windows.
+_____________________________________________________________________________
+
+Autoøi
+------
+
+MOD4WIN spoleènì vytvoøili Kay Bruns, Uwe Zaenker a Jens Puchert.
+
+Podrobnìjší rozpis toho, co kdo napsal, naleznete v kapitole Autoøi 
+v souboru nápovìdy pro Windows.
+
+Jestlie budete mít s programem nìjaké problémy nebo k nìmu budete mít 
+nìjaké poznámky, je nejlepší kontaktovat èlovìka, kterı je za pøíslušnou 
+èást zodpovìdnı. Kontaktní informace jsou v kapitole Autoøi v souboru 
+nápovìdy pro Windows.
+
+Jestlie máte obecné otázky ohlednì programu nebo otázky tıkající se 
+registrace a placení nebo obchodního zastoupení, obrate se prosím na Kaye 
+Brunse nebo Uwe Zänkera (jestlie ijete v Evropì) nebo Jense Pucherta 
+(jestlie ijete v USA nebo jinde mimo Evropu).
+
+Poznámka: Ne budete kontaktovat kteréhokoliv z nás, proètìte si prosím 
+Èasto kladené otázky (FAQ) v souboru nápovìdy pro Windows. Vaše otázka u 
+tam mùe bıt zodpovìzena a ušetøíte cennı èas sobì i nám.
+_____________________________________________________________________________
+
+Problémy a jejich øešení
+------------------------
+
+Podrobnı popis problémù a jejich øešení naleznete v souboru nápovìdy 
+pro Windows v kapitolách
+
+- Známé problémy a
+- Èasto kladené otázky (FAQ)
+_____________________________________________________________________________
+
+Sharewarové poznámky
+--------------------
+
+* Rozdíly mezi Sharewarovou a Plnou verzí *
+
+V zásadì jsou sharewarová a plná verze stejnì vıkonné. Ukázalo se, e 
+omezená sharewarová verze nemá smysl, protoe byste si nemohli vyzkoušet 
+funkce, které v demu chybí. Nicménì zkušenost ukazuje, e je nutné volnì 
+šiøitelné demo nìjak omezit, a namísto odstraòování funkcí vám dáváme 
+k dispozici program bez omezení na 30 dní dlouhé zkušební období. Vıjimkou 
+je monost ukládání seznamù - to je moné pouze pokud si zaregistrujete 
+plnou verzi.
+
+Kdy se vám program bude líbit a budete ho chtít pouívat déle nì 30 dní 
+zkušebního období, bude nutné si opatøit plnou verzi pomocí Registrace. 
+Volnì šiøitelná demoverze vás upozorní, e jste se ještì nezaregistrovali, 
+pokadé, kdy spustíte a ukonèíte MOD4WIN. Samozøejmì tohoto budete 
+ušetøeni, a zakoupíte kopii plné verze programu. Vaše zaregistrovaná kopie 
+bude také zobrzovat vaše jméno v záhlaví Hlavního dialogu a v dialogu 
+O programu.
+
+* Dokumentace *
+
+Vzhledem k tomu, e ovládat MOD4WIN je tak snadné a intuitivní, nemyslíme, 
+e je nutné k nìmu vydávat tištìnou dokumentaci. Systém kontextové nápovìdy 
+Windows je kdykoliv k dispozici jednou klávesou (pouze stisknìte F1 
+z kteréhokoliv dialogu). Kdybyste chtìli mít nìco na papíøe, klidnì si 
+nápovìdu vytisknìte.
+
+* Maloobchodní prodej plné verze *
+
+MOD4WIN nelze zakoupit v obchodì. Pro získání plné verze se prosím øiïte 
+instrukcemi v kapitole Registrace.
+
+* Aktualizace *
+
+Registrovaní uivatelé mají vdy velké slevy na nové verze. V závislosti 
+na tom, jak rozsáhlé zmìny byly provedeny od vaší verze k souèasné, ceny se 
+pohybují od nuly k asi polovinì ceny plné verze. Detaily najdete v kapitole 
+Registrace v souboru nápovìdy pro Windows.
+_____________________________________________________________________________
+
+Licenèní opatøení
+-----------------
+
+1. Veškeré pokusy o prolomení sharewarové kontroly a omezení na 30 dní 
+   zkušební doby jsou porušením našich autorskıch práv a jsou zakázány. 
+   Jestlie se o takovıch pokusech dozvíme, vyhrazujeme si právo zaalovat 
+   provinilou stranu.
+
+2. Úprava souboru, kterı patøí do balíku MOD4WIN, je pøísnì zakázána.
+
+3. Rozkládání, zpìtné pøekládání, patchování, hackování nebo crackování 
+   tohoto programu, jako i šíøení libovolného materálu, kterı podnìcuje 
+   nebo pomáhá tìmto èinnostem, je pøísnì zakázáno. Porušení tohoto naøízení 
+   je podstatou autorského podvodu a mùe bıt pøedmìtem trestního stíhání 
+   podle autorského zákona.
+
+4. Drení registrované verze je povoleno pouze registrovanému uivateli.
+
+Uvìdomte si zvláštì dobøe: Na ukázkové moduly obsaené v distribuèním balíku 
+                           MOD4WIN mají autorská práva jejich vlastní autoøi.
+
+Uivatelé libovolné verze programu MOD4WIN bezpodmíneènì souhlasí se všemi 
+licenèními pøedpisy, kdy instalují softwaru na jejich poèítaè.
+
+Podrobnı vıklad všech licenèních pøedpisù naleznete v této kapitole souboru 
+nápovìdy pro Windows.
+_____________________________________________________________________________
+
+Odpovìdnost, záruka a ochranná známka
+-------------------------------------
+
+My, autoøi, nedáváme ádné záruky, vyslovené nebo mlèky pøedpokládané, 
+vèetnì ale ne omezenì na jakékoliv záruky vhodnosti pro konkrétní úèel. 
+V ádném pøípadì nejsou autoøi zodpovìdni za jakoukoliv náhodnou nebo 
+vyplıvající škodu zpùsobenou pouitím nebo nemoností pouití tohoto 
+programu. Tímto zpùsobem popíráme jakoukoliv zodpovìdnost na maximální 
+rozsah povolenı zákonem.
+
+Vy jste plnì odpovìdni za vše, co dìláte s tímto programem!
+
+Rezervujeme si veškerá práva na náš program.
+
+MOD4WIN a IDO jsou ochranné známky spoleènosti JSInc. a SWE Bruns & Zänker.
+
+Podrobnìjší popis odpovìdnosti, záruky a ochranné známky je ve stejnojmenné 
+kapitole v souboru nápovìdy pro Windows.
+_____________________________________________________________________________
+
+Registrace programu MOD4WIN 2.30
+--------------------------------
+
+Základní registraèní procedura je jednoduchá. Pouze vyplòte Registraèní 
+formuláø a pošlete ho s náleitou platbou vašemu distributorovi. Podle toho, 
+kde ijete, bude vám program zaslán jinım distributorem, s mírnì odlišnou 
+registraèní procedurou. Podrobnosti najdete v kapitole Registrace v souboru 
+nápovìdy pro Windows.
+
+Jestlie jste èlenem Informaèní sluby Compuserve, mùete se také pohodlnì
+zaregistrovat v soukromí, pøímo od vašeho monitoru. Navštivte fórum SWREG, 
+pouijte identifikaci ID #4138 a øiïte se zobrazovanımi instrukcemi.
+
+Nejnovìjší informace o kreditních kartách, aktualizacích programu apod. 
+získáte na naší pøedbìné webové stránce na adrese 
+http://scuzzy.fmmo.ca/mediatrix/mod4win.htm 
+(laskavost spoleènosti Mediatrix Peripherals, Inc.).
+_____________________________________________________________________________
+
+Ceník pro MOD4WIN 2.30
+----------------------
+
+registraèní poplatek pro nového uivatele: 30 USD
+aktualizace z 1.xx:                        15 USD
+aktualizace z 2.00:                        12 USD
+aktualizace z 2.1x:                        10 USD
+aktualizace z 2.2x:                        ZDARMA
+
+Jestlie u máte kopii volnì šiøitelné demoverze programu MOD4WIN 2.30, u 
+nebudou ádné další poplatky za zaslání registraèního kódu.
+
+Jestlie nemáte kopii volnì šiøitelné demoverze programu MOD4WIN 2.30 a 
+pøejete si obdret disketu s registrovanou verzí, poštovné a balné èiní 
+5 USD.
+
+U není nutné poskytovat obálku se zpáteèní adresou. Zásilka vám pøijde 
+poštou první tøídy ve Spojenıch státech americkıch a Kanadì nebo leteckou 
+poštou všude jinde. Diskety jsou 3.5", formátu DS-HD. Z dùvodu maximální 
+ochrany jsou veškré diskety zasílány v bublinkách.
+_____________________________________________________________________________
+
+Registraèní formuláø pro MOD4WIN 2.30
+-------------------------------------
+
+Prosím vytisknìte si Registraèní formuláø ze souboru nápovìdy pro Windows 
+(kliknìte na Obsah a pak na Registraèní formuláø).
+_____________________________________________________________________________
+
+Závìrem
+-------
+
+Hodnì zábavy s programem MOD4WIN!
