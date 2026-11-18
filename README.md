@@ -10,6 +10,7 @@ updated or re-written to work on modern computers.
 The code is written in pascal and assembly. The compilers have been removed
 from this repository as they were not freely distributable.
 
+Mod4Win lives on at https://github.com/trekkie22de/Mod4Win
 
 # Original Readme Extract:
 
